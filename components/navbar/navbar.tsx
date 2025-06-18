@@ -4,12 +4,12 @@ import Navlink from "@/components/navbar/navlink";
 
 const Navbar = () => {
   return (
-    <div className='fixed top-0 w-full bg-white shadow-sm z-20'>
+    <div className='fixed top-0 w-full bg-black/30 shadow-sm z-20 backdrop-blur'>
       <div className='max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4 relative'>
         <Link href='/'>
           <Image
             src='/logo.png'
-            width={110}
+            width={90}
             height={49}
             alt='logo'
             priority
