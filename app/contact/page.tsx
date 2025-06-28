@@ -8,7 +8,7 @@ import {
 import HeaderSection from "@/components/header-section";
 import ContactForm from "@/components/contact-form";
 
-export const metada: Metadata = {
+export const metadata: Metadata = {
   title: "Contact",
 };
 
