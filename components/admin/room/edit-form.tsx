@@ -23,7 +23,7 @@ const EditForm = ({
 }) => {
   const inputFileRef = useRef<HTMLInputElement>(null);
   const [image, setImage] = useState(room.image);
-  const [message, setMessage] = useState("");
+  const [message] = useState("");
   const [pending, startTransition] = useTransition();
 
   const handleUpload = () => {
