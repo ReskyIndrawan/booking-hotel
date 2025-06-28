@@ -16,7 +16,7 @@ import clsx from "clsx";
 const CreateForm = ({ amenities }: { amenities: Amenities[] }) => {
   const inputFileRef = useRef<HTMLInputElement>(null);
   const [image, setImage] = useState("");
-  const [message, setMessage] = useState("");
+  const [message] = useState("");
   const [pending, startTransition] = useTransition();
 
   const handleUpload = () => {

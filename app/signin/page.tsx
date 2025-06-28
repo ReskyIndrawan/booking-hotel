@@ -31,7 +31,7 @@ const SignInPage = async ({
         </div>
         <div className='mt-6 text-center'>
           <p className='text-gray-400 text-sm'>
-            Don't have an account?{" "}
+            Do not have an account?{" "}
             <a
               href='/signup'
               className='text-teal-400 hover:text-teal-300 font-medium'>
