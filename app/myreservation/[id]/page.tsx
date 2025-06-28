@@ -2,7 +2,7 @@ import ReservationDetail from "@/components/reservation-detail";
 import { Metadata } from "next";
 import { Suspense } from "react";
 
-export const metada: Metadata = {
+export const metadata: Metadata = {
   title: "Reservation Detail",
 };
 
